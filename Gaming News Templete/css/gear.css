@@ -1,0 +1,155 @@
+.myheader a {
+    color: white;
+    text-decoration: none;
+}
+
+.myheader a:hover,
+.myheader a:focus {
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+}
+
+.myheader .social-networks 
+{
+    text-align: right;
+    margin-right: 13%;
+    margin-top: 1%;
+}
+
+.myheader .social-networks a {
+    font-size: 24px;
+    color: #f9f9f9;
+    transition: 0.2s;
+    margin-left: 5%;
+}
+
+.myheader .social-networks a:hover {
+    text-decoration: none;
+}
+
+.myheader .facebook:hover {
+    color: #023664;
+}
+
+.myheader .google:hover {
+    color: #ef1a1a;
+}
+.myheader .twitter:hover {
+    color: #1aa1ef;
+}
+.myheader .search:hover {
+    color: #011675;
+}
+.main p
+{
+    color: rgb(182, 173, 173);
+    text-decoration: none;
+    font-size:18px;
+    margin-top: 2%;
+    text-align: center;
+}
+.head1
+{
+    background-color: #374999;
+}
+  #navigation-bar ul {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  #navigation-bar li {
+    float: left;
+    width: 19%;
+  }
+  #navigation-bar li:hover a::before {
+    right: 0;
+    left: 0;
+  }
+  #navigation-bar a {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+    color: white;
+    font-family: impact;
+    margin-top: 4%;
+  }
+  li {
+      list-style: none;
+  }
+  .main a
+  {
+    list-style: none; 
+    text-decoration: none;
+    color: white;
+    font-family: impact;
+    font-size: 19px;
+  }
+  .head1 h1
+  {
+font-family: impact;
+  }
+  .head1 h4
+  {
+font-family: arial;
+  }
+  .myheader i
+  {
+margin-right: 4%;
+  }
+  .head2 img
+  {
+      position: absolute;
+      height: 720px;
+  }
+  .head2 form {
+    float: left;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 380px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(32, 32, 32, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 12%
+  }
+  .head2 form h1
+  {
+color: white;
+font-family: Impact;
+  }
+  .head2 form h4
+  {
+color: rgb(238, 237, 237);
+font-family:arial;
+  }
+  .head2 form p
+  {
+color: rgb(241, 241, 241);
+font-family:arial;
+  }
+  .head3 h1
+  {
+      position: absolute;
+      color: white;
+      font-family: impact;
+      margin-top: 58%;
+      margin-left: 1%;
+  }
+  .footer
+{
+    background-color: rgb(42, 41, 41);
+    position: absolute;
+    color:  rgb(241, 241, 241);
+    margin-top: 65%;
+}
+.footer .col-lg-3
+{
+    border-right: 2px solid rgb(0, 0, 0);
+    
+}
+.myheader a
+{
+    border-right: 2px solid rgb(0, 0, 0);
+}

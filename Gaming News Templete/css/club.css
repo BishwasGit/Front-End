@@ -1,0 +1,97 @@
+.head1
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+.head1 h1
+{
+color: white;
+font-family: arial;
+text-align: center;
+}
+.head1 p
+{
+color: rgb(214, 214, 214);
+font-family: arial;
+text-align: center;
+padding-bottom: 50px;
+}
+.head2
+{
+    background-color: black;
+    padding: 10px;
+}
+.head2 h1
+{
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding-top: 18px;
+}
+.head2 p
+{
+color: rgb(214, 214, 214);
+font-family: helvetica;
+text-align: center;
+padding-bottom:30px;
+}
+.head2 .p1
+{
+color: rgb(214, 214, 214);
+font-family: helvetica;
+text-align: left;
+padding-top: 18px;
+}
+.head2 .p2
+{
+color: rgb(214, 214, 214);
+font-family: helvetica;
+text-align: left;
+}
+.head1 img
+{
+    height: 250px;
+    width:250px;
+    margin-left: 40%;
+}
+.head2 img
+{
+    width:50%;
+    height: auto;
+    margin-left: 16%;
+}
+.head3
+{
+    background-color: rgb(34, 33, 33);
+}
+.head3 h1
+{
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding-top: 20px;
+}
+.head3 p
+{
+color: rgb(214, 214, 214);
+font-family: helvetica;
+text-align: center;
+}
+.head3 h4
+{
+    color: white;
+    text-align: center;
+}
+.head3 a
+{
+    font-size: 34px;
+}
+.head3 .row .col-lg-4 {
+    background-color: black;
+    padding: 20px;
+    border-right: 2px solid rgb(214, 214, 214);
+}
+.head3 .group
+{
+    margin-top:4%;
+}

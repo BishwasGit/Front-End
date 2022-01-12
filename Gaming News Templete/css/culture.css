@@ -1,0 +1,145 @@
+#myVideo {
+    position: fixed;
+width: 100%; 
+min-height: 100%;
+  }
+  .content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    width: 100%;
+  }
+  .content h1
+  {
+      font-family: impact;
+      font-size: 55px;
+      text-align: center;
+      color: white;
+      padding-top: 120px;
+  }
+  .content h2
+  {
+      font-family: impact;
+      font-size: 55px;
+      text-align: center;
+      color:  rgb(238, 10, 67);
+  }
+  .content p
+  {
+      text-align: center;
+  }
+  #myBtn1 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(32, 30, 30);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgb(32, 30, 30);
+  color: #fff;
+  cursor: pointer;
+  margin-left: 43%;
+  margin-bottom: 2%;
+}
+#myBtn1:hover {
+  background: rgb(238, 10, 67);
+  color: black;
+}
+  #myBtn:hover {
+    background: rgb(238, 10, 67);
+    color: black;
+  }
+  .content h3
+  {
+      font-family: impact;
+      font-size: 50px;
+      text-align: center;
+      color:  rgb(238, 10, 67);
+      margin-top: 5%;
+  }
+  .head
+  {
+    background-color: rgb(32, 30, 30);
+    padding-bottom: 4%;
+  }
+.head img
+{
+  margin-top:4%;
+}
+.content h6
+{
+    font-family: impact;
+    font-size: 32px;
+    text-align: center;
+    color:  rgb(238, 10, 67);
+}
+.content h5
+{
+    font-family: impact;
+    font-size: 40px;
+    text-align: center;
+    color:  white;
+margin-top: 9%;
+  }
+  .head p
+  {
+    text-align: left;
+    font-size: 18px;
+  }
+  .head .h7
+  {
+   color: white;
+   font-size: 20px
+  }
+  .head .h8
+  {
+   color: rgb(238, 10, 67);
+   font-size: 18px;
+  }
+  #myBtn2 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(224, 9, 74);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 27%;
+    margin-bottom: 2%;
+  }
+  #myBtn2:hover {
+    background: rgb(238, 10, 67);
+    color: black;
+  }
+.myheader a:hover,
+.myheader a:focus {
+    text-decoration: none;
+    color: black;
+}
+.myheader .social-networks a {
+    font-size: 18px;
+    color: #f9f9f9;
+    transition: 0.2s;
+}
+.myheader .facebook:hover {
+    color: #0077e2;
+}
+.myheader .twitter:hover {
+    color: #00aced;
+}
+.myheader .youtube:hover {
+    color: red;
+}
+.myheader
+{
+  margin-top: 9.5%;
+}

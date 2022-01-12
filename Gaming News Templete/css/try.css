@@ -1,0 +1,199 @@
+.main #menu-nav {
+    max-width: 1000px;
+  }
+   
+  .main #navigation-bar ul {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .main #navigation-bar li {
+    float: left;
+    width: 20%;
+  }
+  .main  #navigation-bar li:hover a::before {
+    right: 0;
+    left: 0;
+  }
+  .main  #navigation-bar a {
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+    color: white;
+    text-align: left;
+  }
+  .main #navigation-bar a:hover {
+    color: yellow
+  }
+  .main #navigation-bar a::before {
+    content: "";
+    transition: all 0.4s ease-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: yellow;
+  }
+  .main #navigation-bar a:hover::before {
+    right: 0;
+    left: 0;
+  }
+   
+  .main li {
+      list-style: none;
+  }
+.main
+{
+    margin-left: 9%;
+    font-size: 32px;
+    margin-top: 1%;
+}
+.main .a1
+{
+    color: white;
+    font-family: Anton;
+}
+.main .a2
+{
+    color: yellow;
+    font-family: Anton;
+}
+.head1 h1
+{
+    color: white;
+    font-family: Anton;
+    font-size: 44px;
+}
+.head1 h2
+{
+    color: yellow;
+    font-family: Anton;
+    font-size: 44px;
+}
+.head1
+{
+    margin-left: 9%;
+    margin-top: 10%;
+}
+.head1 p
+{
+color: white;
+font-size: 20px;
+}
+ .head1 h3
+ {
+     color: yellow;
+     font-family: 'arial';
+     font-size: 22px;
+     border-bottom: 2px solid currentColor;
+     display: inline;
+     margin-right: 9%;
+     margin-left: 7%;
+     line-height: 1.85;
+}
+.head1 h4
+{
+    color: yellow;
+   font-family: 'arial';
+   font-size: 22px;
+   border-bottom: 2px solid currentColor;
+   display:inline;
+   line-height: 1.85;
+}
+.myheader a {
+    color: white;
+    text-decoration: none;
+}
+
+.myheader a:hover,
+.myheader a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.myheader .social-networks 
+{
+    text-align: right;
+    margin-right: 13%;
+    margin-top: 1%;
+}
+
+.myheader .social-networks a {
+    font-size: 24px;
+    color: #f9f9f9;
+    transition: 0.2s;
+    margin-left: 5%;
+}
+
+.myheader .social-networks a:hover {
+    text-decoration: none;
+}
+
+.myheader .facebook:hover {
+    color: #0077e2;
+}
+
+.myheader .google:hover {
+    color: #ef1a1a;
+}
+
+.myheader .twitter:hover {
+    color: #00aced;
+}
+.myheader .youtube:hover {
+    color: red;
+}
+.myheader .instagram:hover {
+    color: #e41642;
+}
+.myheader .twitch:hover {
+    color: purple;
+}
+.myheader .search:hover{
+    color: yellow;
+}
+@media screen and (max-width: 767px) {
+    .myheader {
+        text-align: center;
+    }
+}
+.button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: yellow;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 4%;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
